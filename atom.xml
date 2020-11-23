@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>大雁国-Mr.Liao</title>
+  
+  <subtitle>大雁国</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://coding.dayanguo.cn/"/>
+  <updated>2018-12-26T10:11:54.230Z</updated>
+  <id>https://coding.dayanguo.cn/</id>
+  
+  <author>
+    <name>Mr.Liao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录requireJs</title>
+    <link href="https://coding.dayanguo.cn/2018/12/26/%E8%AE%B0%E5%BD%95requireJs/"/>
+    <id>https://coding.dayanguo.cn/2018/12/26/记录requireJs/</id>
+    <published>2018-12-26T09:02:59.000Z</published>
+    <updated>2018-12-26T10:11:54.230Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;简单的理解就是模块化加载器。&lt;br&gt;作用：&lt;br&gt;JS文件的依赖关系。&lt;br&gt;通过异步加载优化script标签引起的阻塞问题。&lt;br&gt;可以简单的以文件为单位将功能模块化并实现复用。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="requirejs" scheme="https://coding.dayanguo.cn/tags/requirejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在苹果手机不能实时触发onscroll事件</title>
+    <link href="https://coding.dayanguo.cn/2018/12/05/%E5%9C%A8%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E4%B8%8D%E8%83%BD%E5%AE%9E%E6%97%B6%E8%A7%A6%E5%8F%91onscroll%E4%BA%8B%E4%BB%B6/"/>
+    <id>https://coding.dayanguo.cn/2018/12/05/在苹果手机不能实时触发onscroll事件/</id>
+    <published>2018-12-05T07:46:27.000Z</published>
+    <updated>2018-12-05T07:46:27.155Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>h5适配iphonex</title>
+    <link href="https://coding.dayanguo.cn/2018/12/05/h5%E9%80%82%E9%85%8Diphonex/"/>
+    <id>https://coding.dayanguo.cn/2018/12/05/h5适配iphonex/</id>
+    <published>2018-12-05T03:47:44.000Z</published>
+    <updated>2018-12-05T07:55:19.585Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;viewport 可以设置的选项就是 viewport-fit,它有三个可选值：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;contain: The viewport should fully contain the web content. 可视窗口完全包含网页内容
+
+cover: 
+      
+    
+    </summary>
+    
+    
+      <category term="iphonex" scheme="https://coding.dayanguo.cn/tags/iphonex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用git命令提交远程github仓库的时候提示rejected（拒绝）解决办法</title>
+    <link href="https://coding.dayanguo.cn/2018/11/07/%E4%BD%BF%E7%94%A8git%E5%91%BD%E4%BB%A4%E6%8F%90%E4%BA%A4%E8%BF%9C%E7%A8%8Bgithub%E4%BB%93%E5%BA%93%E7%9A%84%E6%97%B6%E5%80%99%E6%8F%90%E7%A4%BArejected%EF%BC%88%E6%8B%92%E7%BB%9D%EF%BC%89%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://coding.dayanguo.cn/2018/11/07/使用git命令提交远程github仓库的时候提示rejected（拒绝）解决办法/</id>
+    <published>2018-11-07T10:31:20.000Z</published>
+    <updated>2018-11-07T10:46:39.009Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;不想克隆再提交，通过关联来提交代码到github，git本地仓库首次push到远程仓库出现错误 ! &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="github" scheme="https://coding.dayanguo.cn/tags/github/"/>
+    
+      <category term="git" scheme="https://coding.dayanguo.cn/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>打包时静态文件自动添加版本号</title>
+    <link href="https://coding.dayanguo.cn/2018/11/05/%E6%89%93%E5%8C%85%E6%97%B6%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9C%AC%E5%8F%B7/"/>
+    <id>https://coding.dayanguo.cn/2018/11/05/打包时静态文件自动添加版本号/</id>
+    <published>2018-11-05T08:01:33.000Z</published>
+    <updated>2018-11-13T10:01:39.836Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;静态资源的缓存是件很头疼的事情，有时候明明处理的bug测试还是存在，其实就是缓存惹的祸，手机不比pc浏览器，清理缓存还是有点麻烦的。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="node" scheme="https://coding.dayanguo.cn/tags/node/"/>
+    
+      <category term="npm" scheme="https://coding.dayanguo.cn/tags/npm/"/>
+    
+      <category term="gulp" scheme="https://coding.dayanguo.cn/tags/gulp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未使用脚手架时，使用gulp压缩整个项目，靠谱</title>
+    <link href="https://coding.dayanguo.cn/2018/10/29/%E6%9C%AA%E4%BD%BF%E7%94%A8%E8%84%9A%E6%89%8B%E6%9E%B6%E6%97%B6%EF%BC%8C%E4%BD%BF%E7%94%A8gulp%E5%8E%8B%E7%BC%A9%E6%95%B4%E4%B8%AA%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%9D%A0%E8%B0%B1/"/>
+    <id>https://coding.dayanguo.cn/2018/10/29/未使用脚手架时，使用gulp压缩整个项目，靠谱/</id>
+    <published>2018-10-29T09:32:16.000Z</published>
+    <updated>2018-10-29T09:32:16.787Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>background-size在Android上出现异常</title>
+    <link href="https://coding.dayanguo.cn/2018/10/26/background-size%E5%9C%A8Android%E4%B8%8A%E5%87%BA%E7%8E%B0%E5%BC%82%E5%B8%B8/"/>
+    <id>https://coding.dayanguo.cn/2018/10/26/background-size在Android上出现异常/</id>
+    <published>2018-10-26T09:36:50.000Z</published>
+    <updated>2018-10-26T10:42:06.239Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在Android上出现背景图片不显示情况，找了半天，以为是webview的问题，最后才发现是background-size的“功劳”。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="https://coding.dayanguo.cn/tags/css/"/>
+    
+      <category term="background-size" scheme="https://coding.dayanguo.cn/tags/background-size/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决git push代码到github上一直提示输入用户名及密码的问题</title>
+    <link href="https://coding.dayanguo.cn/2018/10/24/%E8%A7%A3%E5%86%B3git-push%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%B8%8A%E4%B8%80%E7%9B%B4%E6%8F%90%E7%A4%BA%E8%BE%93%E5%85%A5%E7%94%A8%E6%88%B7%E5%90%8D%E5%8F%8A%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://coding.dayanguo.cn/2018/10/24/解决git-push代码到github上一直提示输入用户名及密码的问题/</id>
+    <published>2018-10-24T09:09:36.000Z</published>
+    <updated>2018-10-24T10:00:00.476Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;发现问题&quot;&gt;&lt;a href=&quot;#发现问题&quot; class=&quot;headerlink&quot; title=&quot;发现问题&quot;&gt;&lt;/a&gt;发现问题&lt;/h2&gt;&lt;p&gt;从github上克隆到本地，要push时，发现老是要输入账号密码，而且不能push。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/i
+      
+    
+    </summary>
+    
+    
+      <category term="github" scheme="https://coding.dayanguo.cn/tags/github/"/>
+    
+      <category term="git" scheme="https://coding.dayanguo.cn/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>页面返回时js刷新数据</title>
+    <link href="https://coding.dayanguo.cn/2018/10/23/%E9%A1%B5%E9%9D%A2%E8%BF%94%E5%9B%9E%E6%97%B6js%E5%88%B7%E6%96%B0%E6%95%B0%E6%8D%AE/"/>
+    <id>https://coding.dayanguo.cn/2018/10/23/页面返回时js刷新数据/</id>
+    <published>2018-10-23T02:38:44.000Z</published>
+    <updated>2018-10-23T03:26:28.387Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;第一个页面a：&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/s
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>emment让你飞起来</title>
+    <link href="https://coding.dayanguo.cn/2018/10/10/emment%E8%AE%A9%E4%BD%A0%E9%A3%9E%E8%B5%B7%E6%9D%A5/"/>
+    <id>https://coding.dayanguo.cn/2018/10/10/emment让你飞起来/</id>
+    <published>2018-10-10T11:21:35.000Z</published>
+    <updated>2018-10-10T11:22:27.976Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;‘#’ 创建一个id特性&lt;br&gt;‘.’ 创建一个类特性&lt;br&gt;‘[]’ 创建一个自定义特性&lt;br&gt;‘&amp;gt;’ 创建一个子元素&lt;br&gt;‘+’ 创建一个兄弟元素&lt;br&gt;‘^’ 提升元素层次&lt;br&gt;‘*’ 相当于乘号，会创建n次相同的东西。&lt;br&gt;‘$’ 代替一个自增的数字。&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>meta默认使用极速模式打开网页</title>
+    <link href="https://coding.dayanguo.cn/2018/10/10/meta%E9%BB%98%E8%AE%A4%E4%BD%BF%E7%94%A8%E6%9E%81%E9%80%9F%E6%A8%A1%E5%BC%8F%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5/"/>
+    <id>https://coding.dayanguo.cn/2018/10/10/meta默认使用极速模式打开网页/</id>
+    <published>2018-10-10T08:59:40.000Z</published>
+    <updated>2018-10-10T11:22:28.807Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="html" scheme="https://coding.dayanguo.cn/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>meta的使用</title>
+    <link href="https://coding.dayanguo.cn/2018/10/10/meta%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://coding.dayanguo.cn/2018/10/10/meta的使用/</id>
+    <published>2018-10-10T01:55:21.000Z</published>
+    <updated>2018-10-10T01:56:49.390Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;如对浏览器进行强制全屏的设置（UC全屏），webapp模式等&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+      
+    
+    </summary>
+    
+    
+      <category term="html" scheme="https://coding.dayanguo.cn/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>弹框阻止页面滑动/滚动</title>
+    <link href="https://coding.dayanguo.cn/2018/09/06/%E5%BC%B9%E6%A1%86%E9%98%BB%E6%AD%A2%E9%A1%B5%E9%9D%A2%E6%BB%91%E5%8A%A8-%E6%BB%9A%E5%8A%A8/"/>
+    <id>https://coding.dayanguo.cn/2018/09/06/弹框阻止页面滑动-滚动/</id>
+    <published>2018-09-06T09:40:03.000Z</published>
+    <updated>2018-09-06T09:47:59.121Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时隔长了，有些东西就会淡忘，那是应为脑子装的东西太多了，哈哈…&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+      <category term="css" scheme="https://coding.dayanguo.cn/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tp5中验证码不显示的问题</title>
+    <link href="https://coding.dayanguo.cn/2018/08/27/tp5%E4%B8%AD%E9%AA%8C%E8%AF%81%E7%A0%81%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://coding.dayanguo.cn/2018/08/27/tp5中验证码不显示的问题/</id>
+    <published>2018-08-27T05:51:06.000Z</published>
+    <updated>2018-08-27T05:53:57.817Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;页面中使用了验证码，本地显示，服务器上就不显示了，奇葩问题。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tp5" scheme="https://coding.dayanguo.cn/tags/tp5/"/>
+    
+      <category term="thinkphp5" scheme="https://coding.dayanguo.cn/tags/thinkphp5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css3动画制作评论滚动</title>
+    <link href="https://coding.dayanguo.cn/2018/08/21/css3%E5%8A%A8%E7%94%BB%E5%88%B6%E4%BD%9C%E8%AF%84%E8%AE%BA%E6%BB%9A%E5%8A%A8/"/>
+    <id>https://coding.dayanguo.cn/2018/08/21/css3动画制作评论滚动/</id>
+    <published>2018-08-21T08:34:39.000Z</published>
+    <updated>2018-12-05T07:55:18.528Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前都是用js，为了更高效，燥起来…&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="https://coding.dayanguo.cn/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue脚手架引入element-ui报错解决方法</title>
+    <link href="https://coding.dayanguo.cn/2018/08/02/vue%E8%84%9A%E6%89%8B%E6%9E%B6%E5%BC%95%E5%85%A5element-ui%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://coding.dayanguo.cn/2018/08/02/vue脚手架引入element-ui报错解决方法/</id>
+    <published>2018-08-02T03:21:01.000Z</published>
+    <updated>2018-08-02T03:41:46.995Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;按照element-ui使用 npm 的方式安装，npm i element-ui -S&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="vue" scheme="https://coding.dayanguo.cn/tags/vue/"/>
+    
+      <category term="element-ui" scheme="https://coding.dayanguo.cn/tags/element-ui/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo_github_push出错</title>
+    <link href="https://coding.dayanguo.cn/2018/08/01/hexo-github-push%E5%87%BA%E9%94%99/"/>
+    <id>https://coding.dayanguo.cn/2018/08/01/hexo-github-push出错/</id>
+    <published>2018-08-01T08:23:18.000Z</published>
+    <updated>2018-08-01T08:52:37.643Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一段时间没写博客，写了博客github居然push出错，我哩个去！&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="github" scheme="https://coding.dayanguo.cn/tags/github/"/>
+    
+      <category term="git" scheme="https://coding.dayanguo.cn/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue脚手架打包部署</title>
+    <link href="https://coding.dayanguo.cn/2018/08/01/vue%E8%84%9A%E6%89%8B%E6%9E%B6%E6%89%93%E5%8C%85%E9%83%A8%E7%BD%B2/"/>
+    <id>https://coding.dayanguo.cn/2018/08/01/vue脚手架打包部署/</id>
+    <published>2018-08-01T06:30:43.000Z</published>
+    <updated>2018-08-01T08:52:37.613Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;打开路由history模式&quot;&gt;&lt;a href=&quot;#打开路由history模式&quot; class=&quot;headerlink&quot; title=&quot;打开路由history模式&quot;&gt;&lt;/a&gt;打开路由history模式&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Router(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  mode: &lt;span class=&quot;string&quot;&gt;&#39;history&#39;&lt;/span&gt;,&lt;span class=&quot;comment&quot;&gt;//去掉#，&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="vue" scheme="https://coding.dayanguo.cn/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决国内访问github速度太慢的问题</title>
+    <link href="https://coding.dayanguo.cn/2018/07/30/%E8%A7%A3%E5%86%B3%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AEgithub%E9%80%9F%E5%BA%A6%E5%A4%AA%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://coding.dayanguo.cn/2018/07/30/解决国内访问github速度太慢的问题/</id>
+    <published>2018-07-30T03:51:14.000Z</published>
+    <updated>2018-07-31T03:10:01.925Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;解决方法：&lt;/p&gt;
+&lt;p&gt;1.访问&lt;a href=&quot;http://github.global.ssl.fastly.net.ipaddress.com/#ipinfo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://github.global.
+      
+    
+    </summary>
+    
+    
+      <category term="github" scheme="https://coding.dayanguo.cn/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ios transition translate 闪屏问题总结</title>
+    <link href="https://coding.dayanguo.cn/2018/07/06/ios%20transition%20translate%20%E9%97%AA%E5%B1%8F%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
+    <id>https://coding.dayanguo.cn/2018/07/06/ios transition translate 闪屏问题总结/</id>
+    <published>2018-07-06T08:32:58.000Z</published>
+    <updated>2018-08-31T08:00:00.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;no-1&quot;&gt;&lt;a href=&quot;#no-1&quot; class=&quot;headerlink&quot; title=&quot;no.1&quot;&gt;&lt;/a&gt;no.1&lt;/h2&gt;&lt;p&gt;解决方法：&lt;br&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="css3" scheme="https://coding.dayanguo.cn/tags/css3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>下拉框“第一个选项不能选择”的bug</title>
+    <link href="https://coding.dayanguo.cn/2018/03/28/%E4%B8%8B%E6%8B%89%E6%A1%86%E2%80%9C%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%80%89%E9%A1%B9%E4%B8%8D%E8%83%BD%E9%80%89%E6%8B%A9%E2%80%9D%E7%9A%84bug/"/>
+    <id>https://coding.dayanguo.cn/2018/03/28/下拉框“第一个选项不能选择”的bug/</id>
+    <published>2018-03-28T06:19:47.000Z</published>
+    <updated>2018-03-28T06:30:40.035Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;对应标题意思也就是让select默认不选中任何一项，才能选择第一项。但是浏览器会让select选择第一项，所以只能添加一条空的option，如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>判断h5是否成功跳转到app</title>
+    <link href="https://coding.dayanguo.cn/2018/03/15/%E5%88%A4%E6%96%ADh5%E6%98%AF%E5%90%A6%E6%88%90%E5%8A%9F%E8%B7%B3%E8%BD%AC%E5%88%B0app/"/>
+    <id>https://coding.dayanguo.cn/2018/03/15/判断h5是否成功跳转到app/</id>
+    <published>2018-03-15T02:57:45.000Z</published>
+    <updated>2018-03-15T03:20:22.927Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;document的可见性属性&quot;&gt;&lt;a href=&quot;#document的可见性属性&quot; class=&quot;headerlink&quot; title=&quot;document的可见性属性&quot;&gt;&lt;/a&gt;document的可见性属性&lt;/h2&gt;&lt;p&gt;document.hidden是一个布尔值，
+      
+    
+    </summary>
+    
+    
+      <category term="h5" scheme="https://coding.dayanguo.cn/tags/h5/"/>
+    
+      <category term="hidden" scheme="https://coding.dayanguo.cn/tags/hidden/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vs code调试php之旅</title>
+    <link href="https://coding.dayanguo.cn/2018/02/24/vs%20code%E8%B0%83%E8%AF%95php%E4%B9%8B%E6%97%85/"/>
+    <id>https://coding.dayanguo.cn/2018/02/24/vs code调试php之旅/</id>
+    <published>2018-02-24T06:48:20.000Z</published>
+    <updated>2018-02-24T07:04:16.787Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;下载php对应版本xdebug的插件&quot;&gt;&lt;a href=&quot;#下载php对应版本xdebug的插件&quot; class=&quot;headerlink&quot; title=&quot;下载php对应版本xdebug的插件&quot;&gt;&lt;/a&gt;下载php对应版本xdebug的插件&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="php" scheme="https://coding.dayanguo.cn/tags/php/"/>
+    
+      <category term="调试" scheme="https://coding.dayanguo.cn/tags/%E8%B0%83%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rem的使用方法</title>
+    <link href="https://coding.dayanguo.cn/2018/01/11/rem%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://coding.dayanguo.cn/2018/01/11/rem的使用方法/</id>
+    <published>2018-01-11T09:27:43.000Z</published>
+    <updated>2018-01-11T09:37:48.056Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;rem是什么？&quot;&gt;&lt;a href=&quot;#rem是什么？&quot; class=&quot;headerlink&quot; title=&quot;rem是什么？&quot;&gt;&lt;/a&gt;rem是什么？&lt;/h2&gt;&lt;p&gt;rem（font size of the root element）是指相对于根元素的字体大小的单位
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My&#39;flex.css&#39;</title>
+    <link href="https://coding.dayanguo.cn/2017/12/04/My-flex-css/"/>
+    <id>https://coding.dayanguo.cn/2017/12/04/My-flex-css/</id>
+    <published>2017-12-04T09:09:59.000Z</published>
+    <updated>2017-12-04T09:47:52.773Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;&lt;em&gt;使用于小程序&lt;/em&gt;&lt;br&gt;弹性布局，适配不同分辨率不同分辨率的手机。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="https://coding.dayanguo.cn/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jq评论列表往上不间断滚动</title>
+    <link href="https://coding.dayanguo.cn/2017/11/30/jq%E8%AF%84%E8%AE%BA%E5%88%97%E8%A1%A8%E5%BE%80%E4%B8%8A%E4%B8%8D%E9%97%B4%E6%96%AD%E6%BB%9A%E5%8A%A8/"/>
+    <id>https://coding.dayanguo.cn/2017/11/30/jq评论列表往上不间断滚动/</id>
+    <published>2017-11-30T03:30:00.000Z</published>
+    <updated>2018-01-11T09:34:13.563Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;定时滚动，时间可控。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="jquery" scheme="https://coding.dayanguo.cn/tags/jquery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页调起QQ的方法</title>
+    <link href="https://coding.dayanguo.cn/2017/11/28/%E7%BD%91%E9%A1%B5%E8%B0%83%E8%B5%B7QQ%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://coding.dayanguo.cn/2017/11/28/网页调起QQ的方法/</id>
+    <published>2017-11-28T06:41:07.000Z</published>
+    <updated>2017-11-29T04:01:26.399Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;非常简单哦！&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="QQ" scheme="https://coding.dayanguo.cn/tags/QQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My&#39;box.css&#39;</title>
+    <link href="https://coding.dayanguo.cn/2017/11/27/My-box-css/"/>
+    <id>https://coding.dayanguo.cn/2017/11/27/My-box-css/</id>
+    <published>2017-11-27T07:45:18.000Z</published>
+    <updated>2017-12-04T09:53:52.100Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;&lt;em&gt;使用于h5页面·极速模式&lt;/em&gt;&lt;br&gt;使用弹性盒子对页面进行布局，box.css中就定义了弹性盒子的一些css3样式，弹性盒子模型是在指定大小的父容器里来为子元素分配空间，使用box架构可以更容易更方便的适配不同分辨率不同屏幕尺寸的手机。&lt;br&gt;与flex.css的区别是ub_rev。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="https://coding.dayanguo.cn/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在iphone8 plus上的一个前端兼容性问题</title>
+    <link href="https://coding.dayanguo.cn/2017/11/20/%E5%9C%A8iphone8-plus%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98/"/>
+    <id>https://coding.dayanguo.cn/2017/11/20/在iphone8-plus上的一个前端兼容性问题/</id>
+    <published>2017-11-20T07:45:58.000Z</published>
+    <updated>2017-11-20T07:54:54.059Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;i8p上使用百度浏览器，会出现display无法实现显示或隐藏的bug，可以使用visibility:hidden(隐藏)，visibility:visible(显示)&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo命令</title>
+    <link href="https://coding.dayanguo.cn/2017/11/20/hexo%E5%91%BD%E4%BB%A4/"/>
+    <id>https://coding.dayanguo.cn/2017/11/20/hexo命令/</id>
+    <published>2017-11-20T07:31:10.000Z</published>
+    <updated>2017-11-29T04:02:10.330Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装更新&quot;&gt;&lt;a href=&quot;#安装更新&quot; class=&quot;headerlink&quot; title=&quot;安装更新&quot;&gt;&lt;/a&gt;安装更新&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install hexo -g #安装  
+npm update hexo -g #升级  
+hexo init #初始化
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://coding.dayanguo.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>移动端注意事项</title>
+    <link href="https://coding.dayanguo.cn/2017/09/13/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>https://coding.dayanguo.cn/2017/09/13/移动端注意事项/</id>
+    <published>2017-09-13T06:37:28.000Z</published>
+    <updated>2017-09-13T07:04:05.552Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前进后退&quot;&gt;&lt;a href=&quot;#前进后退&quot; class=&quot;headerlink&quot; title=&quot;前进后退&quot;&gt;&lt;/a&gt;前进后退&lt;/h2&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre
+      
+    
+    </summary>
+    
+    
+      <category term="移动端" scheme="https://coding.dayanguo.cn/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cmd命令操作电脑</title>
+    <link href="https://coding.dayanguo.cn/2017/07/06/cmd%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E7%94%B5%E8%84%91/"/>
+    <id>https://coding.dayanguo.cn/2017/07/06/cmd命令操作电脑/</id>
+    <published>2017-07-06T09:07:53.000Z</published>
+    <updated>2017-11-29T04:05:24.865Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;先来学习一个命令&lt;br&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;shutdown         &lt;span class=&quot;comment&quot;&gt;//这个命令本省的意思就是关机的意思，下面看一下它的参数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-s               &lt;span class=&quot;comment&quot;&gt;//这个命令参数是关机的意思也就是（shutdown的缩写）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-r               &lt;span class=&quot;comment&quot;&gt;//这个参数是重启的意思即（restart的缩写）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-l               &lt;span class=&quot;comment&quot;&gt;//这个参数是注销的意思（logout）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-t               &lt;span class=&quot;comment&quot;&gt;//这个参数比较重要，是指延时多少时间执行，它的单位是秒&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-f               &lt;span class=&quot;comment&quot;&gt;//关机时关闭所有的程序而不给出提示&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="cmd" scheme="https://coding.dayanguo.cn/tags/cmd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>让浏览器自动刷新吧</title>
+    <link href="https://coding.dayanguo.cn/2017/07/05/%E8%AE%A9%E6%B5%8F%E8%A7%88%E5%99%A8%E8%87%AA%E5%8A%A8%E5%88%B7%E6%96%B0%E5%90%A7/"/>
+    <id>https://coding.dayanguo.cn/2017/07/05/让浏览器自动刷新吧/</id>
+    <published>2017-07-05T05:40:08.000Z</published>
+    <updated>2018-08-23T06:17:03.607Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;适合静态文件&quot;&gt;&lt;a href=&quot;#适合静态文件&quot; class=&quot;headerlink&quot; title=&quot;适合静态文件&quot;&gt;&lt;/a&gt;适合静态文件&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;也就是对静态网站跑个服务器&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="node" scheme="https://coding.dayanguo.cn/tags/node/"/>
+    
+      <category term="gulp" scheme="https://coding.dayanguo.cn/tags/gulp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gulp教程</title>
+    <link href="https://coding.dayanguo.cn/2017/05/15/gulp%E6%95%99%E7%A8%8B/"/>
+    <id>https://coding.dayanguo.cn/2017/05/15/gulp教程/</id>
+    <published>2017-05-15T10:12:52.000Z</published>
+    <updated>2017-11-29T04:02:54.546Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;gulp简介&quot;&gt;&lt;a href=&quot;#gulp简介&quot; class=&quot;headerlink&quot; title=&quot;gulp简介&quot;&gt;&lt;/a&gt;gulp简介&lt;/h2&gt;&lt;p&gt;gulp是基于Nodejs的自动任务运行器， 她能自动化地完成 javascript/coffee/sass/less/html/image/css 等文件的的测试、检查、合并、压缩、格式化、浏览器自动刷新、部署文件生成，并监听文件在改动后重复指定的这些步骤。在实现上，她借鉴了Unix操作系统的管道（pipe）思想，前一级的输出，直接变成后一级的输入，使得在操作上非常简单。通过本文，我们将学习如何使用Gulp来改变开发流程，从而使开发更加快速高效。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="node" scheme="https://coding.dayanguo.cn/tags/node/"/>
+    
+      <category term="npm" scheme="https://coding.dayanguo.cn/tags/npm/"/>
+    
+      <category term="gulp" scheme="https://coding.dayanguo.cn/tags/gulp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm相关知识</title>
+    <link href="https://coding.dayanguo.cn/2017/05/14/npm%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86/"/>
+    <id>https://coding.dayanguo.cn/2017/05/14/npm相关知识/</id>
+    <published>2017-05-14T10:12:52.000Z</published>
+    <updated>2017-11-29T04:06:51.946Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装node&quot;&gt;&lt;a href=&quot;#安装node&quot; class=&quot;headerlink&quot; title=&quot;安装node&quot;&gt;&lt;/a&gt;安装node&lt;/h2&gt;&lt;p&gt;去node官网下载msi安装包，默认就有npm。安装完成，命令测试：node -v,  npm -v&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="node" scheme="https://coding.dayanguo.cn/tags/node/"/>
+    
+      <category term="npm" scheme="https://coding.dayanguo.cn/tags/npm/"/>
+    
+      <category term="gulp" scheme="https://coding.dayanguo.cn/tags/gulp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css3小知识点</title>
+    <link href="https://coding.dayanguo.cn/2017/04/19/css3%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    <id>https://coding.dayanguo.cn/2017/04/19/css3小知识点/</id>
+    <published>2017-04-19T07:56:57.000Z</published>
+    <updated>2018-07-23T03:32:37.166Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;css小细节，在于积累&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="https://coding.dayanguo.cn/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js常用点</title>
+    <link href="https://coding.dayanguo.cn/2017/04/18/js%E5%B8%B8%E7%94%A8%E7%82%B9/"/>
+    <id>https://coding.dayanguo.cn/2017/04/18/js常用点/</id>
+    <published>2017-04-18T10:44:14.000Z</published>
+    <updated>2019-03-11T02:36:47.353Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;点击&quot;&gt;&lt;a href=&quot;#点击&quot; class=&quot;headerlink&quot; title=&quot;点击&quot;&gt;&lt;/a&gt;点击&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cla
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js小知识点</title>
+    <link href="https://coding.dayanguo.cn/2017/04/18/js%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    <id>https://coding.dayanguo.cn/2017/04/18/js小知识点/</id>
+    <published>2017-04-18T10:44:14.000Z</published>
+    <updated>2018-09-26T08:58:04.925Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;去掉字符串前面的0&quot;&gt;&lt;a href=&quot;#去掉字符串前面的0&quot; class=&quot;headerlink&quot; title=&quot;去掉字符串前面的0&quot;&gt;&lt;/a&gt;去掉字符串前面的0&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; a=&lt;span class=&quot;string&quot;&gt;&#39;007&#39;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(a.replace(&lt;span class=&quot;regexp&quot;&gt;/\b(0+)/gi&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt;));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用多个Git账号</title>
+    <link href="https://coding.dayanguo.cn/2017/04/11/%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAGit%E8%B4%A6%E5%8F%B7/"/>
+    <id>https://coding.dayanguo.cn/2017/04/11/使用多个Git账号/</id>
+    <published>2017-04-11T06:38:12.000Z</published>
+    <updated>2018-08-01T08:12:08.954Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;永久保存&lt;br&gt;    git config –global user.name “lyg”&lt;br&gt;    git config –global user.email “&lt;a href=&quot;mailto:lyg@qq.com&quot; target=&quot;_blank&quot; rel=&quot;noo
+      
+    
+    </summary>
+    
+    
+      <category term="git" scheme="https://coding.dayanguo.cn/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>图片懒加载lazyload 3步走使用方法</title>
+    <link href="https://coding.dayanguo.cn/2017/04/05/%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BDlazyload%203%E6%AD%A5%E8%B5%B0%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://coding.dayanguo.cn/2017/04/05/图片懒加载lazyload 3步走使用方法/</id>
+    <published>2017-04-05T09:49:51.000Z</published>
+    <updated>2017-11-29T04:06:24.464Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1.引入&lt;a href=&quot;http://7xpz4f.com1.z0.glb.clouddn.com/js/jquery.lazyload.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;lazyload&lt;/a&gt;&lt;br&gt;2.img标签，将src改成data-original，然后添加class=”lazy”&lt;br&gt;3.js加入$(‘img.lazy’).lazyload({effect:”fadeIn”});&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="jquery" scheme="https://coding.dayanguo.cn/tags/jquery/"/>
+    
+      <category term="lazyload" scheme="https://coding.dayanguo.cn/tags/lazyload/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小程序子页面添加返回首页且不影响分享功能的方法</title>
+    <link href="https://coding.dayanguo.cn/2017/04/01/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%90%E9%A1%B5%E9%9D%A2%E6%B7%BB%E5%8A%A0%E8%BF%94%E5%9B%9E%E9%A6%96%E9%A1%B5%E4%B8%94%E4%B8%8D%E5%BD%B1%E5%93%8D%E5%88%86%E4%BA%AB%E5%8A%9F%E8%83%BD%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://coding.dayanguo.cn/2017/04/01/小程序子页面添加返回首页且不影响分享功能的方法/</id>
+    <published>2017-04-01T09:01:44.000Z</published>
+    <updated>2017-11-29T04:06:08.733Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前在子页面添加放回首页按钮的时候，懵逼了。跳转，小程序有只能5层页面的限制；后来发现可以使用redirectTo页面，但是效果不理想，也会多层；最后发现可以关闭页面，回退到首页。好了，就用关闭回退吧，但是，又有一个问题，那就是分享出去的话，怎么回退，回退毛啊。然后继续研究吧…&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="小程序" scheme="https://coding.dayanguo.cn/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小程序内存中的事儿</title>
+    <link href="https://coding.dayanguo.cn/2017/03/29/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%86%85%E5%AD%98%E4%B8%AD%E7%9A%84%E4%BA%8B%E5%84%BF/"/>
+    <id>https://coding.dayanguo.cn/2017/03/29/小程序内存中的事儿/</id>
+    <published>2017-03-29T02:08:58.000Z</published>
+    <updated>2017-03-30T10:38:06.133Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在根目录app.js设置globalData对象，可以在打开小程序是对象值生效，退出便失效&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;lin
+      
+    
+    </summary>
+    
+    
+      <category term="小程序" scheme="https://coding.dayanguo.cn/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+      <category term="微信" scheme="https://coding.dayanguo.cn/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>点击事件不能多次点击执行，可以判断ajax是否在执行中</title>
+    <link href="https://coding.dayanguo.cn/2017/03/27/%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6%E4%B8%8D%E8%83%BD%E5%A4%9A%E6%AC%A1%E7%82%B9%E5%87%BB%E6%89%A7%E8%A1%8C%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%88%A4%E6%96%ADajax%E6%98%AF%E5%90%A6%E5%9C%A8%E6%89%A7%E8%A1%8C%E4%B8%AD/"/>
+    <id>https://coding.dayanguo.cn/2017/03/27/点击事件不能多次点击执行，可以判断ajax是否在执行中/</id>
+    <published>2017-03-27T07:34:58.000Z</published>
+    <updated>2017-11-29T04:06:46.941Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span 
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+      <category term="ajax" scheme="https://coding.dayanguo.cn/tags/ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo换主题注意事项</title>
+    <link href="https://coding.dayanguo.cn/2017/03/24/hexo%E6%8D%A2%E4%B8%BB%E9%A2%98%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>https://coding.dayanguo.cn/2017/03/24/hexo换主题注意事项/</id>
+    <published>2017-03-24T08:05:42.000Z</published>
+    <updated>2017-05-16T07:36:46.672Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;改配置&quot;&gt;&lt;a href=&quot;#改配置&quot; class=&quot;headerlink&quot; title=&quot;改配置&quot;&gt;&lt;/a&gt;改配置&lt;/h2&gt;&lt;p&gt;将新主题放入theme后，更改_confirm.yml中的theme&lt;br&gt;    theme: yelee&lt;/p&gt;
+&lt;h2 id=
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://coding.dayanguo.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>background 简写属性在一个声明中设置所有的背景属性</title>
+    <link href="https://coding.dayanguo.cn/2017/03/24/background-%E7%AE%80%E5%86%99%E5%B1%9E%E6%80%A7%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%A3%B0%E6%98%8E%E4%B8%AD%E8%AE%BE%E7%BD%AE%E6%89%80%E6%9C%89%E7%9A%84%E8%83%8C%E6%99%AF%E5%B1%9E%E6%80%A7/"/>
+    <id>https://coding.dayanguo.cn/2017/03/24/background-简写属性在一个声明中设置所有的背景属性/</id>
+    <published>2017-03-24T02:24:20.000Z</published>
+    <updated>2017-11-29T04:05:30.489Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最简写：&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.top_con&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;background&lt;/span&gt;: &lt;span class=&quot;built_in&quot;&gt;url&lt;/span&gt;(img/top_con.jpg) no-repeat center center / cover;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="https://coding.dayanguo.cn/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>执行ajax，并判断状态值</title>
+    <link href="https://coding.dayanguo.cn/2017/03/23/%E6%89%A7%E8%A1%8Cajax%EF%BC%8C%E5%B9%B6%E5%88%A4%E6%96%AD%E7%8A%B6%E6%80%81%E5%80%BC/"/>
+    <id>https://coding.dayanguo.cn/2017/03/23/执行ajax，并判断状态值/</id>
+    <published>2017-03-23T02:37:50.000Z</published>
+    <updated>2017-11-29T04:06:02.137Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span 
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js限制在微信浏览器打开，禁止外置浏览器</title>
+    <link href="https://coding.dayanguo.cn/2016/12/07/js%E9%99%90%E5%88%B6%E5%9C%A8%E5%BE%AE%E4%BF%A1%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%BC%80%EF%BC%8C%E7%A6%81%E6%AD%A2%E5%A4%96%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    <id>https://coding.dayanguo.cn/2016/12/07/js限制在微信浏览器打开，禁止外置浏览器/</id>
+    <published>2016-12-07T04:40:13.000Z</published>
+    <updated>2017-03-24T02:24:53.782Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span 
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用js将html结构和字符串互转</title>
+    <link href="https://coding.dayanguo.cn/2016/12/01/%E4%BD%BF%E7%94%A8js%E5%B0%86html%E7%BB%93%E6%9E%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BA%92%E8%BD%AC/"/>
+    <id>https://coding.dayanguo.cn/2016/12/01/使用js将html结构和字符串互转/</id>
+    <published>2016-12-01T02:20:28.000Z</published>
+    <updated>2017-11-29T04:06:31.928Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;html结构转字符串形式显示-支持换行&quot;&gt;&lt;a href=&quot;#html结构转字符串形式显示-支持换行&quot; class=&quot;headerlink&quot; title=&quot;html结构转字符串形式显示 支持换行&quot;&gt;&lt;/a&gt;html结构转字符串形式显示 支持&lt;br&gt;换行&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;ToHtmlString&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;htmlStr&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; toTXT(htmlStr).replace(&lt;span class=&quot;regexp&quot;&gt;/\&amp;amp;lt\;br[\&amp;amp;ensp\;|\&amp;amp;emsp\;]*[\/]?\&amp;amp;gt\;|\r\n|\n/g&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;br/&amp;gt;&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+      <category term="html" scheme="https://coding.dayanguo.cn/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTTP状态码</title>
+    <link href="https://coding.dayanguo.cn/2016/10/02/HTTP%E7%8A%B6%E6%80%81%E7%A0%81/"/>
+    <id>https://coding.dayanguo.cn/2016/10/02/HTTP状态码/</id>
+    <published>2016-10-02T02:41:28.000Z</published>
+    <updated>2017-11-29T04:02:03.576Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;常见的状态码:&lt;/p&gt;
+&lt;p&gt;HTTP: Status 200 – 服务器成功返回网页&lt;br&gt;HTTP: Status 304 – 请求的网页未修改&lt;br&gt;HTTP Status  400 – 错误请求&lt;br&gt;HTTP: Status 404 – 请求的网页不存在&lt;br&gt;HTTP: Status 503 – 服务不可用&lt;br&gt;HTTP:Status 504  – 网关超时&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="http" scheme="https://coding.dayanguo.cn/tags/http/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js中获取时间new Date()详细介绍</title>
+    <link href="https://coding.dayanguo.cn/2015/12/23/js%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4new-Date-%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/"/>
+    <id>https://coding.dayanguo.cn/2015/12/23/js中获取时间new-Date-详细介绍/</id>
+    <published>2015-12-23T01:31:31.000Z</published>
+    <updated>2017-11-29T04:07:02.412Z</updated>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; myDate = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getYear(); &lt;span class=&quot;comment&quot;&gt;//获取当前年份(2位)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getFullYear(); &lt;span class=&quot;comment&quot;&gt;//获取完整的年份(4位,1970-????)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getMonth(); &lt;span class=&quot;comment&quot;&gt;//获取当前月份(0-11,0代表1月)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getDate(); &lt;span class=&quot;comment&quot;&gt;//获取当前日(1-31)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getDay(); &lt;span class=&quot;comment&quot;&gt;//获取当前星期X(0-6,0代表星期天)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getTime(); &lt;span class=&quot;comment&quot;&gt;//获取当前时间(从1970.1.1开始的毫秒数)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getHours(); &lt;span class=&quot;comment&quot;&gt;//获取当前小时数(0-23)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getMinutes(); &lt;span class=&quot;comment&quot;&gt;//获取当前分钟数(0-59)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getSeconds(); &lt;span class=&quot;comment&quot;&gt;//获取当前秒数(0-59)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.getMilliseconds(); &lt;span class=&quot;comment&quot;&gt;//获取当前毫秒数(0-999)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.toLocaleDateString(); &lt;span class=&quot;comment&quot;&gt;//获取当前日期&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; mytime=myDate.toLocaleTimeString(); &lt;span class=&quot;comment&quot;&gt;//获取当前时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;myDate.toLocaleString( ); &lt;span class=&quot;comment&quot;&gt;//获取日期与时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Js/Jquery获取iframe中的元素 在iframe中获取父窗体的元素方法</title>
+    <link href="https://coding.dayanguo.cn/2015/11/24/Js-Jquery%E8%8E%B7%E5%8F%96iframe%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0-%E5%9C%A8iframe%E4%B8%AD%E8%8E%B7%E5%8F%96%E7%88%B6%E7%AA%97%E4%BD%93%E7%9A%84%E5%85%83%E7%B4%A0%E6%96%B9%E6%B3%95/"/>
+    <id>https://coding.dayanguo.cn/2015/11/24/Js-Jquery获取iframe中的元素-在iframe中获取父窗体的元素方法/</id>
+    <published>2015-11-24T09:52:59.000Z</published>
+    <updated>2017-11-29T04:07:16.137Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;通过js&quot;&gt;&lt;a href=&quot;#通过js&quot; class=&quot;headerlink&quot; title=&quot;通过js&quot;&gt;&lt;/a&gt;通过js&lt;/h2&gt;&lt;h3 id=&quot;在父窗口中获取iframe中的元素&quot;&gt;&lt;a href=&quot;#在父窗口中获取iframe中的元素&quot; class=&quot;headerlink&quot; title=&quot;在父窗口中获取iframe中的元素&quot;&gt;&lt;/a&gt;在父窗口中获取iframe中的元素&lt;/h3&gt;&lt;h4 id=&quot;方法1&quot;&gt;&lt;a href=&quot;#方法1&quot; class=&quot;headerlink&quot; title=&quot;方法1&quot;&gt;&lt;/a&gt;方法1&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;格式：window.frames[&amp;quot;iframe的name值&amp;quot;].document.getElementById(&amp;quot;iframe中控件的ID&amp;quot;).click();
+实例：window.frames[&amp;quot;ifm&amp;quot;].document.getElementById(&amp;quot;btnOk&amp;quot;).click();
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://coding.dayanguo.cn/tags/js/"/>
+    
+      <category term="jquery" scheme="https://coding.dayanguo.cn/tags/jquery/"/>
+    
+      <category term="iframe" scheme="https://coding.dayanguo.cn/tags/iframe/"/>
+    
+  </entry>
+  
+</feed>
